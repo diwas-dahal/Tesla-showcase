@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.car-container {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.models {
+  background-image: url("images/Mobile/models.jfif");
+}
+
+.modely {
+  background-image: url("images/Mobile/modely.jfif");
+}
+
+.model3 {
+  background-image: url("images/Mobile/model3.jfif");
+}
+
+.modelx {
+  background-image: url("images/Mobile/modelx.jfif");
+}
+
+.solarpannel {
+  background-image: url("images/Mobile/solarPannel.jfif");
+}
+
+@media screen and (min-width: 400px) {
+  .models {
+    background-image: url("images/Desktop/models2.jfif");
+  }
+  .modely {
+    background-image: url("images/Desktop/modely2.jfif");
+  }
+
+  .model3 {
+    background-image: url("images/Desktop/model3.jfif");
+  }
+
+  .modelx {
+    background-image: url("images/Desktop/modelx.jfif");
+  }
+
+  .solarpannel {
+    background-image: url("images/Desktop/solarPannel.png");
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .car-container {
+    height: 120vh;
+    background-position: bottom center;
+  }
+  .models {
+    background-image: url("images/Desktop/models2.jfif");
+  }
+}
